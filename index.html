@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Whiskers Chat</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whiskers Chat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-  <h1>Coming Soon</h1>
-  <a href="https://github.com/whiskers-chat">Github Org</a>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="page">
+        <div id="header">
+            <a id="pageTitle">Whiskers Chat</a>
+            <div id="mainButtonDiv">
+                <a class="mainButton"
+                    onclick='window.open("https://github.com/whiskers-chat");'>Github</a>
+            </div>
+        </div>
+        <div id="body">
+            <p>Coming Soon</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footerLinksDiv">
+            <a href="https://github.com/whiskers-chat/auth" class="footerLink">Auth Repo</a>
+            <a href="mailto:support@whiskers.chat" class="footerLink">Contact Us</a>
+        </div>
+        <a id="footerLowerText">Hosted on Github Pages | Protect Trans Rights</a>
+        <a id="footerBrowserText">This site works best on Chrome and Firefox. If you are using Edge or IE, download a
+            real web browser.</a>
+
+    </div>
+    <script src="src/main.js" async defer></script>
 </body>
 
 </html>

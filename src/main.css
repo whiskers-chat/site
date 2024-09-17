@@ -1,0 +1,114 @@
+/* Vars */
+:root {
+    /* Buttons */
+    --buttonColor:  rgb(97, 97, 255);
+    --buttonTextColor: white;
+
+    /* Footer */
+    --footerTextColor: black;
+
+    /* App Wide */
+    --mainBorderRadius: 5px;
+}
+
+/* Main Page */
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#page {
+    flex: 1;
+}
+
+#body {
+    margin: 10px;
+}
+
+.keyboardShortcut {
+    background-color: rgb(212, 212, 212);
+    padding: 3px 5px;
+    border-radius: var(--mainBorderRadius);
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://finley224.github.io/Retab-Website/src/images/pawel-czerwinski-zd50NyMmNVg-unsplash.jpg);
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    gap: 10px;
+}
+
+#pageTitle {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+}
+
+/* Header Nav */
+
+#mainButtonDiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mainButton {
+    background-color: var(--buttonColor);
+    border-radius: var(--mainBorderRadius);
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    color: var(--buttonTextColor);
+
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 10px;
+    gap: 5px;
+}
+
+#footerLinksDiv {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+#footerLowerText {
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    color: var(--footerTextColor);
+}
+
+#footerBrowserText {
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    color: var(--footerTextColor);
+    font-weight: 300;
+    font-size: small;
+}
+
+.footerLink {
+    color: var(--footerTextColor);
+}
